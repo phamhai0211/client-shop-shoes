@@ -1,0 +1,68 @@
+@import '../../../assets/scss/variadmin.module.scss';
+.tooltable {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $tooltable-height;
+}
+
+.tooltable__search {
+    position: relative;
+    height: 40px;
+    background-color: $main-bg;
+    display: flex;
+    align-items: center;
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.tooltable__search > input {
+    height: 100%;
+    width: 100%;
+    padding: 10px 60px 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: $txt-color;
+    background-color: $main-bg;
+    border-color: transparent;
+
+    &:focus {
+        border: 2px solid $main-color;
+    }
+}
+
+
+
+.tooltable__search > i {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+}
+
+.tooltable__right {
+    display: flex;
+    align-items: center;
+}
+
+.add-row{
+    height: 35px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: $bg-btn-ad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s;
+    &:hover{
+        background-color: $main-color;
+    }
+}
+.icon-add{
+    font-weight: bold;
+}

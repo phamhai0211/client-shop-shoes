@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "Aromatic",
+        "img" : "/",
+        "desc" : "Nhóm hương thơm thường sử dụng tổ hợp của cây xô thơm, hương thảo, thì là, hoa oải hương và một số loài cây có sở hữu mùi cỏ thảo mộc nồng nàn. Chúng thường được kết hợp với nhóm hương cam chanh và nhóm hương cay nồng. Nhóm hương thơm này thường hay xuất hiện trong các loại nước hoa dành cho nam giới"
+    },
+    {
+        "name" : "Chypre",
+        "img" : "/",
+        "desc" : "Nhóm hương này được đặt theo tên của nước hoa Coty Chypre được sáng tạo ra năm 1917. Chypre cũng có nghĩa là Cyprus (đảo Síp) trong tiếng Pháp. Mùi hương sắc lạnh này dựa trên sự kết hợp hài hòa giữa rêu sồi (oak moss), labdanum (một loại gỗ hồng đặc biệt được tìm thấy ở đảo Síp và vùng Địa Trung Hải), hoắc hương (patchouli) và cam bergamot. Chypre Floral – các loại hoa như hoa hồng, linh lan (lily of the valley), hay hoa nhài chính là những hương liệu truyền thống của nhánh hương này.Chypre Fruity – sự kết hợp hoàn hảo này đến từ những mùi hương trong nhóm chypre cùng với các mùi trái cây của đào, mơ, dâu rừng hay những loại quả lạ, tạo nên mùi hương chung dày và ấm áp."
+    },
+    {
+        "name" : "Citrus",
+        "img" : "/",
+        "desc" : "Nước hoa mang notes citrus đã xuất hiện từ rất lâu đời và phong phú. Nhóm hương này dựa trên các thành phần như cam, chanh, cam bergamot, bưởi hoặc quýt cùng với các mùi aromatic và vị chua (tart notes) cho nam và mùi hương hoa (flora notes) cho nữ. Citrus Aromatic – mùi hương cam chanh cộng với các loại thảo mộc như oải hương, hương thảo, thì là, bạc hà. Citrus Gourmand – nhánh này kết hợp các mùi citrus ngọt dịu hơn như cam ngọt với vani, caramel hay các mùi hoa thơm ngọt."
+    },
+    {
+        "name" : "Oriental",
+        "img" : "/",
+        "desc" : "Nước hoa phương Đông với mùi hổ phách chủ đạo cũng được phân loại như một nhóm mùi riêng nhờ vào nét ấm nồng và xác thịt của nó. Nhóm nước hoa phương Đông mang đến các mùi hương mạnh mẽ, lấn át với notes xạ hương (musk), vanilla, gỗ, các loại nhựa (resins) đặc biệt kết hợp với gia vị và các mùi hoa lạ."
+    },
+    {
+        "name" : "Woody",
+        "img" : "/",
+        "desc" : "Rất dễ để nhận ra nhóm hương này với mùi hương ấp áp, bí ẩn của sandalwood, mùi khô sắc lạnh của cedar hay vetiver, mùi nhựa gỗ dịu nhẹ kết hợp cùng notes aromatic hay citrus cam chanh."
+    },
+    {
+        "name" : "Floral",
+        "img" : "/",
+        "desc" : "Đây chính là nhóm hương chiếm phần lớn nhất trong các loại nước hoa, được tạo nên dựa trên rất nhiều loại kết hợp với tâm điểm chính là hương hoa: hương hoa tươi mới hái, hương hoa với mùi tươi mát như biển cả, hương xanh hoặc phấn, hương hoa trái kết hợp, hay hương hoa ngọt gourmand."
+    },
+    {
+        "name" : "Aquatic",
+        "img" : "/",
+        "desc" : "Mùi hương tạo cảm giác mát mẻ , trong lành cùng vị mặn của gió biển , thường phù hợp sử dụng trong tiết trời nóng bức"
+    }
+]

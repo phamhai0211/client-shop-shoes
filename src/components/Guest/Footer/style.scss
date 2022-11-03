@@ -1,0 +1,77 @@
+@import '../../../assets/scss/vari.module.scss';
+.footer-container{
+    position: relative;
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    height: 355px;
+    text-align: left;
+    color: #555;
+
+    .f-content{
+        padding: 70px 60px 30px 60px;
+
+        .f-item-title{
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .f-item-content{
+            span{
+                display: block;
+                margin-bottom: 8px;
+                transition: all 0.6s;
+                a{
+                    color: #555 ;
+                }
+                &:hover{
+                    a{
+                        color: $color-on-hover;
+                    }
+                }
+            }
+        }
+
+        .f-local{
+            .f-item-title{
+
+            }
+            .f-item-content{
+                span{
+                    display: block;
+                }
+            }
+        }
+
+        .f-subcribe{
+            #email-customer{
+                border: none;
+                border-bottom: solid 1px #555;
+                background-color: #f0f0f0;
+                width: 100%;
+            }
+            .f-btn-sb{
+                margin-top: 20px;
+                .my-button{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .f-last{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        .fl-icon{
+            i{
+                transition: all 0.4s;
+            }
+            &:hover{
+                i{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+}

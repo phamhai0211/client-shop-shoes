@@ -1,0 +1,21 @@
+
+.iconEdit{
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin-right: 15px;
+}
+.iconEdit:hover{
+    color: rgb(204, 142, 26);
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
+
+.iconDelete{
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+.iconDelete:hover{
+    color: rgb(128, 31, 31);
+    transform: scale(1.3);
+    transition: all 0.3s;
+}

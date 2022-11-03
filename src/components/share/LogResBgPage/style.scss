@@ -1,0 +1,38 @@
+
+.log-res-bg-page-container{
+    .lrbp-bg{
+        width: 100%;
+        min-height: 750px;
+        background-position: 50% 70%;
+        padding: 85px 10% 30px;//header bar ~50px
+        
+        .lrbp-content{
+            min-height: 600px;
+            background-color: white;
+            opacity: 0.92;
+
+            .lrbp-content-row{
+                margin: 0;
+                //height: 600px;
+                .col-deco{
+                    //background-color: aqua;
+                    padding: 30px;
+                    overflow: hidden;
+                    //position: relative;
+                    height: 600px;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+    
+                .col-form{
+                    //background-color: rgb(182, 196, 61);
+                    padding: 30px;
+                }
+            }
+            
+        }
+    }
+}

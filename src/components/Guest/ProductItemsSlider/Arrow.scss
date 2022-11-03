@@ -1,0 +1,34 @@
+
+.product-item-slider{
+    .arrow{
+        display: inline-block;
+        // width: 40px;
+        // height: 40px;
+        // line-height: 40px;
+        // padding: 5px 0;
+        // background-color: rgba(20, 20, 20, 0.6);
+        // border-radius: 50%;
+
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .next-arrow-icon,
+        .prev-arrow-icon{
+            font-size: 52px;
+            color: #f0f0f0;
+            //color: #e1c7b6;
+        }
+    }
+    
+    .nextArrow{
+        right: 0;
+        transform: translateX(100%);
+    }
+    
+    .prevArrow{
+        left: 0;
+        transform: translateX(-100%);
+    }
+}

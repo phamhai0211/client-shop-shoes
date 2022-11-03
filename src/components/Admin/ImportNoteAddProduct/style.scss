@@ -1,0 +1,158 @@
+
+.form-add-product-in-container{
+    margin-bottom: 10px;
+    margin-left: -5px;
+    .form-add-product{
+        box-sizing: border-box;
+        //width: fit-content;
+        width: 55%;
+        padding: 6px 0px 15px 15px;
+        border: solid 1px #ced4da;
+        margin-left: 5px; //xoa flex margin
+        .form-group-asf{
+            display: inline-block;
+            width: fit-content;
+            align-self: flex-start;
+            //background-color: red;
+            margin-right: 20px;
+        }
+        .form-group-asf.btn-add-size{
+            line-height: 15px;
+            //align-self: flex-end;
+        }
+        .label{
+           display: block;
+        }
+        .input{
+            border: solid 1px #ced4da;
+            padding: 6px 12px;
+            border-radius: 5px;
+            height: 42.6px;
+        }
+        .name-size{
+            width: 150px;
+        }
+        .number-size{
+            width: 100px;
+        }
+        .cost{
+            width: 200px;
+        }
+        .btn-add-size{
+            font-size: 36px;
+            color: #868a8d;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-right: 10px;
+            &:hover{
+                color: rgb(37, 146, 95);
+                //transform: scale(1.2);
+            }
+        }
+        .btn-x-add-size{
+            font-size: 36px;
+            color: #868a8d;
+            cursor: pointer;
+            &:hover{
+                color: rgb(185, 21, 21);
+                //transform: scale(1.2);
+            }
+            transition: all 0.3s;
+            
+        }
+        .label-error{
+            display: block;
+            padding-top: 3px;
+            font-size: 12px;
+            color: #d72929;
+        }
+        .label-error.non{
+            color: transparent;
+        }
+
+        .form-group-asf-btn{
+            text-align: right;
+            margin-top: 15px;
+            .btn-asf{   
+                display: inline-block;
+                height: 100%;
+                //padding: 5px 10px 0px 10px;
+                margin-right: 10px;
+    
+                .btn-add-size{
+                    font-size: 36px;
+                    color: #868a8d;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    margin-right: 10px;
+                    &:hover{
+                        color: rgb(37, 146, 95);
+                        //transform: scale(1.2);
+                    }
+                }
+                .btn-x-add-size{
+                    font-size: 36px;
+                    color: #868a8d;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(185, 21, 21);
+                        //transform: scale(1.2);
+                    }
+                    transition: all 0.3s;
+                    
+                }
+                
+            }
+        }
+
+        .form-group-acf-btn{
+            text-align: right;
+            padding-right: 20px;
+            margin-top: 15px;
+            .btn-acf{   
+                display: inline-block;
+                height: 100%;
+                //padding: 5px 10px 0px 10px;
+                margin-right: 10px;
+    
+                .btn-add-size{
+                    font-size: 36px;
+                    color: #868a8d;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    margin-right: 10px;
+                    &:hover{
+                        color: rgb(37, 146, 95);
+                        //transform: scale(1.2);
+                    }
+                }
+                .btn-x-add-size{
+                    font-size: 36px;
+                    color: #868a8d;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(185, 21, 21);
+                        //transform: scale(1.2);
+                    }
+                    transition: all 0.3s;
+                    
+                }
+                
+            }
+        }
+       
+    }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+   
+}

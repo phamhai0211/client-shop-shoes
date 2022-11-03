@@ -1,0 +1,39 @@
+@import '../../../assets/scss/vari.module.scss';
+.select-address-container{
+    .css-3iigni-container,
+    .select-hh{
+        .css-1insrsq-control,                
+        .css-1s2u09g-control{
+            border-radius: 0;
+            height: 48px;
+            .css-xcaois-singleValue{
+                font-size: 14px;
+            }
+        }
+        .css-1pahdxg-control{
+            height: 48px;
+            border: 1px solid #e2e2e2;
+            box-shadow: $b-shadow-2 !important;
+            .css-xcaois-singleValue{
+                font-size: 14px;
+            }
+            &:hover{
+                border: 1px solid #e2e2e2 !important;
+                box-shadow: $b-shadow-2 !important;
+            }
+        }
+        &:focus-visible{
+
+        }
+        &:hover, &:focus, &:focus-visible{
+            background: transparent;
+            outline: none;
+            box-shadow: none;
+            box-shadow: $b-shadow-2;
+            //border-color: $color-on-hover;
+        }
+        &:active{
+            outline: none;
+        }
+    }
+}

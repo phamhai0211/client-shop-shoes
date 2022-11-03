@@ -1,0 +1,36 @@
+
+.contact-page-container{
+    .map{
+       
+    }
+
+    .send-message{
+        padding: 20px;
+        text-align: left;
+        .title{
+            color: #333;
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        .input{
+            margin-bottom: 20px;
+            
+            input{
+                width: 80%;
+                padding: 10px 15px;
+                border: solid 1px #333;
+            }
+            textarea{
+                width: 80%;
+                padding-left: 15px;
+                min-height: 120px;
+            }
+        }
+        
+        .my-button{
+            text-align: center;
+        }
+    }
+}

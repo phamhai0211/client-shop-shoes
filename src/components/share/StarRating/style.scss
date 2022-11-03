@@ -1,0 +1,15 @@
+
+.star-rating-container{
+    .radio-rating{
+        display: none;
+    }
+
+    .star-icon{
+        font-size: 20px;
+        cursor: pointer;
+        transition: color 200ms;
+    }
+    // .star-icon:hover{
+    //     color: #ffc107 !important; 
+    // }
+}

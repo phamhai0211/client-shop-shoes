@@ -1,0 +1,14 @@
+   [{
+        "display_name": "settings",
+        "route": "/admin/settings",
+        "icon": "bx bx-cog",
+        "route_child": [],
+        "route_type": ""
+    },
+    {
+        "display_name": "discount",
+        "route": "/admin/discount",
+        "icon": "bx bx-gift",
+        "route_child": [],
+        "route_type": ""
+    }]

@@ -1,0 +1,13 @@
+@import '../../../assets/scss/variables.scss';
+
+.home-category-container{
+    .row-hh.row-long{
+        height: 540px;
+        padding: 12px;
+    }
+
+    .row-hh.row-short{
+        height: 380px;
+        padding: 12px;
+    }
+}

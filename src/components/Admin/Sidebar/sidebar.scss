@@ -1,0 +1,67 @@
+@import '../../../assets/scss/variadmin.module.scss';
+
+.sidebar {
+    //min-width: $sidebar-width;
+    width: $sidebar-width;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: $main-bg;
+    box-shadow: $box-shadow;
+    font-size: 15px;
+    line-height: 1.5px;
+    a{
+        width: 100%;
+        color: unset;
+    }
+}
+
+.sidebar__logo {
+    
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+    img{
+        //width: 60%;
+        //height: 45px;
+        //object-fit: cover;
+    }
+}
+
+.sidebar__item {
+    padding: 0 20px;
+}
+
+.sidebar__item-inner {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition: color 0.3s ease 0s;
+}
+
+.sidebar__item-inner > i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.sidebar__item-inner > span {
+    text-transform: capitalize;
+}
+
+.sidebar__item-inner:hover {
+    color: $main-color;
+}
+
+.sidebar__item-inner.active {
+    border-radius: $border-radius;
+    background-image: linear-gradient(
+        to right,
+        $main-color,
+        $second-color
+    );
+    color: $txt-white;
+}

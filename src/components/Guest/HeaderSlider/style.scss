@@ -1,0 +1,82 @@
+@import '../../../assets/scss/variables.scss';
+
+.header-slider{
+    .slick-slider{
+        .img-header-slider{
+            position: relative;
+            // width: 100%;
+            // height: 450px;
+            img{
+                width: 100%;
+                height: 450px;
+                object-fit: cover;
+            }
+            &::before{
+                content: '';
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                background-color: black;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0.3;
+               
+            }
+        }
+    }
+    
+    .content-header-slider{
+        width: 80%;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: $font-header-slide;
+        color: #edebe9;
+
+        .first-chs{
+            font-size: 40px;
+            font-weight: 500;
+            text-transform: capitalize;
+            //animation: fadeInDown ease 3s;
+        }
+        .second-chs{
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 70px;
+            text-transform: uppercase;
+            // animation: fadeInDown ease 3s;
+            // --animation-delay: 3s;
+        }
+        .third-chs{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            //animation: fadeInDown ease 3s;
+        }
+    }
+    .slick-active{
+        .first-chs{
+            text-transform: capitalize;
+            animation: fadeInDown ease 1.5s;
+        }
+        .second-chs{
+            //animation: rotateInDownLeft ease 1.2s;
+            animation: rollIn ease 1.7s;
+            --animation-delay: 1.5s;
+        }
+        .third-chs{
+            animation: slideInLeft ease 1.7s;
+            --animation-delay: 3s;
+        }
+    }
+
+    .slick-slider:hover{
+        .arrow{
+            opacity: 1;
+        }
+    }  
+
+}

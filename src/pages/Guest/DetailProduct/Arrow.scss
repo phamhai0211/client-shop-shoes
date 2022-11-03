@@ -1,0 +1,29 @@
+.details-product-container{
+    .arrow{
+        display: inline-block;
+        // width: 40px;
+        // height: 40px;
+        // line-height: 40px;
+        // color: #e01010;
+        // font-size: 40px;
+        // font-weight: bold;
+        // text-align: center;
+        // border-radius: 50%;
+
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .nextArrow{
+        right: 0;
+        //transform: translateX(100%);
+    }
+    
+    .prevArrow{
+        left: 0;
+        //transform: translateX(-100%);
+    }
+}
+

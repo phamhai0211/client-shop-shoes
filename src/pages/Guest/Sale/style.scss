@@ -1,0 +1,61 @@
+
+.sale-page-container{
+    .left-bar{
+        text-align: left;
+        .categories{
+            text-align: left;
+            .title{
+                font-size: 18px;
+                color: #333;
+                margin-bottom: 15px;
+            }
+            .list-categories{
+                text-align: left;
+                list-style-type: none;
+                padding-left: 0px;
+                margin-bottom: 40px;
+                li{
+                    font-size: 15px;
+                    color: #888;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                    &:hover{
+                        color: crimson;
+                    }
+                }    
+             
+            }
+        }
+        .search-product{
+            text-align: left;
+            border: solid 1px #e6e6e6;
+            display: inline-block;
+            padding: 15px 10px;
+            input{
+                border: none;
+                width: 230px;
+                font-size: 15px;
+                color: #555;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                border: none;
+                background-color: white;
+                .icon-search{
+                    font-size: 22px;
+                    color: #555;
+                }
+            }
+        }
+        
+    }
+
+    .list-product{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+   
+}

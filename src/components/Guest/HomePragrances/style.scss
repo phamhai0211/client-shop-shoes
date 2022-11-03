@@ -1,0 +1,31 @@
+@import '../../../assets/scss/vari.module.scss';
+
+.home-pragrances-container{
+    
+    .hp-bg{
+        width: 100%;
+        min-height: 650px;
+        //background-position: center;
+        background-position: 52% 72%;
+        background-repeat: no-repeat;
+        //background-size: cover;
+        position: relative;
+        background-color: $bg-home-pragrance-slider;
+        padding: 10px;
+
+        .hp-outsite-slider{
+            background-color: $bg-home-pragrance-slider;
+            opacity: 0.92;
+            padding: 30px;
+            width: 60%;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            .hp-slider{
+                //background-color: $bg-home-pragrance-slider;
+                border: solid 1px black;
+            }
+        }   
+    }
+}

@@ -1,0 +1,29 @@
+@import '../../../assets/scss/vari.module.scss';
+.pragrance-type-item-container{
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    
+    .pti-title-first{
+        font-family: $font-zeyada;
+        font-size: 56px;
+        display: none;
+    }
+
+    .pti-content-on-hover{
+        padding: 20px;
+        //font-family: $font-zeyada;
+        font-family: $font-raleway;
+        text-align: left;
+        .pti-c-title{
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+        .pti-desc{
+            font-family: $font-raleway;
+            //font-family: $font-khula;
+            font-style: italic;
+            font-weight: 200;
+        }
+    }
+}

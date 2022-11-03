@@ -1,0 +1,10 @@
+$font-header-bar: "Roboto", sans-serif;
+$font-header-slide: "Lato", sans-serif;
+$width-button-01: "180px";
+$height-button-01: "46px";
+$star-rating-filled: #ffc107;
+$star-rating-unfilled: #e4e5e9;
+
+:export {
+    star: $star-rating-filled;
+}

@@ -1,0 +1,27 @@
+$font-khula: 'Khula', sans-serif;
+$font-raleway: 'Raleway', sans-serif;
+$font-dancing-script: 'Dancing Script', cursive;
+$font-amatic-sc: 'Amatic SC', cursive;
+$font-zeyada: 'Zeyada', cursive;
+$grey: #555;
+$star-rating-filled: #ffc107; //#ffc107
+$star-rating-unfilled: #e4e5e9;
+$color-on-hover: #d34c4c;
+$star-rated: #555;
+$bg-home-pragrance-slider: white;
+$select-item-choosed: rgb(148, 147, 147);
+$select-item-hover: rgb(228, 226, 226);
+
+$product-item-horizontal-height: 150px;
+$product-new-list-max-height: 490px;
+$bg-home-banner: '/assets/images/headerSlide02.jpg';
+$b-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0);
+$b-shadow-2: 2px 2px 3px #b3b1b1;
+
+:export {
+    starRatingFilled: $star-rating-filled;
+    starRatingUnfilled: $star-rating-unfilled;
+    starRated: $star-rated;
+    selectItemHover: $select-item-hover;
+    selectItemChoosed: $select-item-choosed
+}

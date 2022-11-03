@@ -1,0 +1,79 @@
+
+.cart-container{
+   .container{
+       width: 70%;
+   }
+    .title-col{
+        .name-col, .price-col, .quantity-col, .price-total-col, .button-col{
+            padding: 30px 30px 30px 0px;
+            h3{
+                color: #555;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+
+        .name-col{
+            h3{
+                text-align: center;
+            }
+        }
+
+    }
+
+    .total-price-bill{
+        //margin-top: 10px;
+        font-size: 28px;
+        text-align: right;
+       display: block;
+       padding: 0 15px 15px;
+       text-align: right;
+        .bill-border{
+            //border: solid 1px #e6e6e6;
+            display: inline-block;
+            padding: 10px;
+            width: fit-content;
+            color: #555;
+            .bill-title{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .bill-price{
+                color: rgb(211, 76, 76);
+            }
+        }
+    }
+    .btn{
+        padding: 0 15px;
+        .btn-item{
+            display: inline-block;
+            width: 50%;
+            text-align: left;
+            &:last-child{
+                text-align: right;
+            }
+        }
+
+        .btn-item.btn-sale,
+        .btn-item.btn-buy{
+            .my-button{
+                text-align: center;
+            }  
+        }
+        .btn-item.btn-sale{
+            .my-button{
+                width: 210px !important;
+            }     
+        }
+    }
+  
+   
+}
+.cart-empty{
+    padding: 100px;
+  
+    height: 500px;
+    display: inline-block;
+    background-color: rgb(216, 212, 212);
+    width: 100%;
+}

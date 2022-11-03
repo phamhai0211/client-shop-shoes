@@ -1,0 +1,53 @@
+
+
+.gust-orders-container{
+    margin: 100px auto 50px auto;
+    min-height: 500px;
+    width: 90%;
+    padding: 0px 90px;
+    border-left: solid 1px #e6e6e6;
+    border-right: solid 1px #e6e6e6;
+    .title{
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: #555;
+        text-transform: uppercase;
+    }
+    .header-row{
+        font-size: 14px;
+        //width: 80%;
+        margin: 0px auto;
+        padding: 0 20px;
+        text-align: left;
+        color: #5c5a5a;
+    }
+    .orders-list-container{
+        padding: 10px 20px;
+        .order-gust-item-container{
+            padding: 25px 15px;
+            margin: 20px 0px;
+            border: solid 1px #e6e6e6;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background-color: #fafafb;
+            &:hover{
+
+                background-color: #10d4d2;
+                color: aliceblue;
+            }
+
+            .item-ogit{
+                text-align: left;
+            }
+            .item-ogit.last{
+                text-align: center;
+            }
+
+            .iconEdit{
+                &:hover{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}

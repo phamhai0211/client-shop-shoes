@@ -1,0 +1,47 @@
+@import '../../../assets/scss/vari.module.scss';
+
+.product-new-list-container{
+    position: relative;
+    .plc-content{
+        //padding: 0 auto;
+        width: 75%;
+        .pnl-product{
+            //background-color: aqua;
+        }
+    
+        .pnl-deco{
+            max-height: $product-new-list-max-height;
+            //background-color: rgb(202, 231, 135);
+            .pnl-deco-img{
+                img{
+                    width: 100%;
+                    height: $product-new-list-max-height;
+                    object-fit: cover;
+                }
+            }
+        } 
+    }
+   
+    .plc-deco{
+        .plc-deco-left,
+        .plc-deco-right{
+            position: absolute;
+            z-index: 1;
+        }
+
+        .plc-deco-left{
+            left: 0;
+            bottom: 0;
+        }
+        .plc-deco-right{
+            right: 0;
+            bottom: 0;
+            //transform: translateX(-100%);
+
+            img{
+                width: 185px;
+                //height: 393px;
+            }
+        }
+    }
+}

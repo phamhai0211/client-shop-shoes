@@ -1,0 +1,11 @@
+$gap-row: 20px;
+
+.product-items-horizontal{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    gap: $gap-row;
+    .pi-container{
+        width: calc(50% - #{$gap-row/2});
+    }
+}

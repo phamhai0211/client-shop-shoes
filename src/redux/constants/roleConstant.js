@@ -1,0 +1,6 @@
+export const ROLE_GET_LIST = "ROLE_GET_LIST"
+export const ROLE_GET_LIST_NAME = "ROLE_GET_LIST_NAME"
+export const ROLE_CREATE_NEW = "ROLE_CREATE_NEW"
+export const ROLE_DELETE_BY_ID = "ROLE_DELETE_BY_ID"
+export const ROLE_GET_SINGLE = "ROLE_GET_SINGLE"
+export const ROLE_EDIT_BY_ID = "ROLE_EDIT_BY_ID"

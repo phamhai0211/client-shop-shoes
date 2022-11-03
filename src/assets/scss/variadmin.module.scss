@@ -1,0 +1,49 @@
+$main-bg: #ffffff;
+$second-bg: #fafafb;
+$txt-color: #455560;
+$txt-white: #fff;
+$main-color: #10d4d2;
+$second-color: #2ae9e6;
+$box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+$sidebar-width: 300px;
+$border-radius: 15px;
+$topnav-height: 70px;
+$sidebar-width: 300px;
+$transition-cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$bg-btn-ad: #3f836c;
+$tooltable-height: 70px;
+
+.card {
+    padding: 30px;
+    margin: 0 -15px 30px;
+    //margin-bottom: 30px;
+    background-color: $main-bg;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    font-size: 1rem;
+
+    .full-height {
+        height: calc(100% - 30px);
+    }
+
+
+}
+
+// .full-height {
+//     height: 100%;
+// }
+
+// .card__header {
+//     text-transform: capitalize;
+// }
+
+// .card > div ~ div {
+//     margin-top: 30px;
+// }
+
+// .card__footer {
+//     text-align: center;
+//     text-transform: capitalize;
+// }
+
+

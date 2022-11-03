@@ -1,0 +1,67 @@
+.row-hh{
+    // display: flex;
+    // width: 100%;
+    // height: 100%;
+    // font-size: 0px;
+    // flex-wrap: wrap;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+}
+
+// .row-hh .col-{
+//     width: 100%;
+// }
+
+.row-hh .col-1 {
+    width: 8.33%;
+}
+
+.row-hh .col-2 {
+    width: 16.66%;
+}
+
+.row-hh .col-3 {
+    width: 25%;
+}
+
+.row-hh .col-4 {
+    width: 33.33%;
+}
+
+.row-hh .col-5 {
+    width: 41.66%;
+}
+
+.row-hh .col-6 {
+    width: 50%;
+}
+
+.row-hh .col-7 {
+    width: 58.33%;
+}
+
+.row-hh .col-8 {
+    width: 66.66%;
+}
+
+.row-hh .col-9 {
+    width: 75%;
+}
+
+.row-hh .col-10 {
+    width: 83.33%;
+}
+
+.row-hh .col-11 {
+    width: 91.66%;
+}
+
+.row-hh .col-12 {
+    width: 100%;
+}

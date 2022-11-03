@@ -1,0 +1,68 @@
+[
+   
+    {
+        "display_name": "Customer",
+        "route": "/admin",
+        "icon": "bx bx-user-pin",
+        "route_child": ["/admin/addUser"],
+        "route_type": "customer"
+    },
+    {
+        "display_name": "Employee",
+        "route": "/admin/employees",
+        "icon": "bx bx-user-pin",
+        "route_child": ["/admin/new-employee"],
+        "route_type": "employees"
+    },
+    {
+        "display_name": "Products",
+        "route": "/admin/products",
+        "icon": "bx bx-package",
+        "route_child": ["/admin/products/new-product","/admin/products/:id"],
+        "route_type": "products"
+    },
+    {
+        "display_name": "ImportNotes",
+        "route": "/admin/import-note",
+        "icon": "bx bx-clinic",
+        "route_child": ["/admin/import-notes/new-import-note","/admin/import-notes/:id"],
+        "route_type": "import-note"
+    },
+    {
+        "display_name": "Orders",
+        "route": "/admin/orders",
+        "icon": "bx bx-cart",
+        "route_child": [],
+        "route_type": "orders"
+    },
+    {
+        "display_name": "categories",
+        "route": "/admin/categories",
+        "icon": "bx bx-list-ol",
+        "route_child": ["/admin/categories/new-category","/admin/categories/:id"],
+        "route_type": "categories"
+    },
+    {
+        "display_name": "manufactures",
+        "route": "/admin/manufactures",
+        "icon": "bx bx-store-alt",
+        "route_child": ["/admin/manufactures/new-manufacture","/admin/manufactures/:id"],
+        "route_type": "manufactures"
+    },
+    {
+        "display_name": "fragrances",
+        "route": "/admin/fragrances",
+        "icon": "bx bx-spa",
+        "route_child": ["/admin/fragrances/new-fragrance","/admin/fragrances/:id"],
+        "route_type": "fragrances"
+    },
+  
+    {
+        "display_name": "statistical - Report",
+        "route": "/admin/report",
+        "icon": "bx bx-bar-chart-alt",
+        "route_child": [],
+        "route_type": ""
+    }
+    
+]

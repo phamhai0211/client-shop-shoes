@@ -1,0 +1,10 @@
+@import '../../../assets/scss/vari.module.scss';
+.title-section-container{
+    .ts-title{
+        font-family: $font-raleway;
+        font-size: 38px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

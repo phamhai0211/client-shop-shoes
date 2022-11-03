@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "name": "Đã Xóa"
+    },
+    {
+        "id": 1,
+        "name": "Đang Xử Lý"
+    },
+    {
+        "id": 2,
+        "name": "Nhập Thành Công"
+    }
+    
+    
+]
